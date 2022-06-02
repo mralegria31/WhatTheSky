@@ -23,7 +23,7 @@ var getWeather = function(lat,lon,city) {
     cityInputEl.value = "";
     daysContainerEl.innerHTML = "";
     //format the OpenWeather api url 
-    var apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={237b3e186fa93bd19aee42f4745714e5}`
+    var apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude={part}&appid={237b3e186fa93bd19aee42f4745714e5}`
 
     var currentCity = city
     //make a request to the url 

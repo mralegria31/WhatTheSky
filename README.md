@@ -9,6 +9,8 @@ The purpose of the What The Sky app is to allow people to search up the weather 
 * JAVASCRIPT
 * OPENWEATHERONECALL API
 
+## Screenshot of Site:
+![Alt text](assets/Images/whattheskylandingpage.png "SiteScreenshot")
 
 
 
